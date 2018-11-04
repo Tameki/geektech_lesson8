@@ -7,6 +7,7 @@ import android.content.Intent;
 
 // Created by askar on 10/30/18.
 public class WidgetsUtil {
+    //Отправляем широковещательное сообщения для обновления виджетов
     public static <T> void updateWidget(Context context, Class<T> widgetClass){
         Intent intent = new Intent(context, widgetClass);
         intent.setAction(AppWidgetManager.ACTION_APPWIDGET_UPDATE);

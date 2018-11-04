@@ -19,7 +19,7 @@
             </intent-filter>
         </activity>
 
-        <receiver android:name=".widgets.BaseWidget">
+        <receiver android:name=".widgets.basic.BaseWidget">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
             </intent-filter>
@@ -29,7 +29,7 @@
                 android:resource="@xml/base_widget_info" />
         </receiver>
 
-        <activity android:name=".widgets.BaseWidgetConfigureActivity">
+        <activity android:name=".widgets.basic.BaseWidgetConfigureActivity">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
             </intent-filter>

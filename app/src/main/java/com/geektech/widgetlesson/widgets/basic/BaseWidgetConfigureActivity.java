@@ -1,4 +1,4 @@
-package com.geektech.widgetlesson.widgets;
+package com.geektech.widgetlesson.widgets.basic;
 
 import android.app.Activity;
 import android.appwidget.AppWidgetManager;

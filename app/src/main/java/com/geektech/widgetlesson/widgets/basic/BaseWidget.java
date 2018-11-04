@@ -1,4 +1,4 @@
-package com.geektech.widgetlesson.widgets;
+package com.geektech.widgetlesson.widgets.basic;
 
 import android.app.PendingIntent;
 import android.appwidget.AppWidgetManager;

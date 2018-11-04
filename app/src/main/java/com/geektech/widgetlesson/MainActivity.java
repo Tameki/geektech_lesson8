@@ -3,7 +3,7 @@ package com.geektech.widgetlesson;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-import com.geektech.widgetlesson.widgets.BaseWidget;
+import com.geektech.widgetlesson.widgets.basic.BaseWidget;
 import com.geektech.widgetlesson.widgets.WidgetsUtil;
 
 public class MainActivity extends AppCompatActivity {
